@@ -21,9 +21,9 @@ int main(){
     string status;
 
     cout << "Masukkan Berat Badan (KG) = ";
-    cin >> berat
+    cin >> berat;
     cout << "Masukkan Tinggi Badan (CM) = ";
-    cin >> tinggi
+    cin >> tinggi;
 
     bmi = BMI(berat,tinggi);
     status = Status(BMI);
