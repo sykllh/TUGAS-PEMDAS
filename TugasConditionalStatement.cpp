@@ -2,7 +2,7 @@
 using namespace std;
 
 float BMI(float a,float b){
-    return (berat/(tinggi*tinggi));
+    return berat/(tinggi*tinggi);
 }
 
 string status_BeratBadan (float BMI){
@@ -20,5 +20,11 @@ int main(){
     float berat,tinggi,bmi;
     string status;
 
-    cout << ""
+    cout << "Masukkan Berat Badan (KG) = ";
+    cin >> berat
+    cout << "Masukkan Tinggi Badan (CM) = ";
+    cin >> tinggi
+
+    bmi = BMI(berat,tinggi);
+    status = Status(bmi);
 }
