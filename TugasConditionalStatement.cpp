@@ -2,7 +2,7 @@
 using namespace std;
 
 float BMI(float a,float b){
-    return berat/(tinggi*tinggi);
+    return a/(b*b);
 }
 
 string status_BeratBadan (float BMI){
