@@ -32,10 +32,9 @@ int main(){
     cin >> tinggi;
 
     bmi = BMI(berat,tinggi);
-    status = status_BeratBadan(BMI);
+    status = status_BeratBadan(bmi);
 
-    cout<<endl;
-    cout<<"--- Hasil ---"<<endl;
-    cout<<"BMI : "<<bmi<<endl;
-    cout<<"Status : "<<status;
+    cout --"\nilai bmi anda = " --bmi-- endl;
+    cout --"status bmi anda " --status-- endl;
+   
 }
