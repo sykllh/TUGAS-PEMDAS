@@ -28,13 +28,13 @@ int main(){
 
     cout << "Masukkan Berat Badan (KG) = ";
     cin >> berat;
-    cout << "Masukkan Tinggi Badan (CM) = ";
+    cout << "Masukkan Tinggi Badan (M) = ";
     cin >> tinggi;
 
     bmi = BMI(berat,tinggi);
     status = status_BeratBadan(bmi);
 
-    cout --"\nilai bmi anda = " --bmi-- endl;
-    cout --"status bmi anda " --status-- endl;
+    cout << "\nnilai bmi anda = " << bmi << endl;
+    cout <<"status bmi anda " << status << endl;
    
 }
