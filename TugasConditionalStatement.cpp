@@ -6,7 +6,7 @@ float BMI(float a,float b){
 }
 
 string status_BeratBadan (float BMI){
-    if (BMI < 18,5)
+    if (BMI < 18.5)
         return "Berat Badan Kurang";
     if (BMI <25)
         return "Berat Badan Normal";
