@@ -2,5 +2,10 @@
 using namespace std;
 
 float BMI(float a,float b){
-    return (berat/(tinggi*tinggi))
+    return (berat/(tinggi*tinggi));
+}
+
+string status_BeratBadan (float BMI){
+    if (bmi < 18,5)
+        return "
 }
