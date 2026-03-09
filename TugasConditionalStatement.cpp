@@ -26,5 +26,5 @@ int main(){
     cin >> tinggi
 
     bmi = BMI(berat,tinggi);
-    status = Status(bmi);
+    status = Status(BMI);
 }
